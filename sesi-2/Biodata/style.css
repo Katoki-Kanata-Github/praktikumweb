@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --text-color : white;
+    --bg-color: black;
+    --main-color: blue;
+
+    --h1-font : 6rem;
+    --p-font : 1rem;
+}
+
+body {
+    color : var(--text-color);
+    background : var(--bg-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 70px;
+    background: rgba(225, 225, 225, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+   
+.logo {
+    font-size: 30px;
+    color: var(--text-color);
+    font-weight: 700;
+    text-decoration: none;
+    cursor: default;
+}
+
+span {
+    color: var(--main-color);
+    border-color: white;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 5%;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 25px;
+    transition: all .5s ease;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    padding-right: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items :center;
+    margin-left: 5%;
+}
+
+.home {
+    position: middle;
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),url(astrounot.png);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text p {
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke : 0.5px black;
+    font-weight: 200;
+    line-height: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bio {
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    width: 200px; 
+    height: 200px;
+}
+.home img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.kanan{
+    margin-right: 1%;
+    margin-top: 5%;
+    float: right;
+    display: block; 
+    width: 550px; 
+    height: 300px;
+    line-height: 2;
+    border: 5px solid white;
+}
+
+.reason {
+    position: middle;
+    height: 100vh;
+    width: 100%;
+    border-style: double;
+    background-color: darkblue;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.reason-text h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    color: var(--text-color);
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.reason-text p {
+    font-size: 12px;
+    font :  Calibri ;
+    color: white;
+    line-height: 1.8;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-left: 0%;
+    display: flex;
+    justify-content: left;
+}
+
+.education {
+    position: middle;
+    height: 80vh;
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+
+.education-text h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.tek {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a {
+    float: left;
+    text-align: center;
+    margin-left: none;
+}
+
+.b {
+   text-align: center;
+   margin-left: 7%;
+}
+
+.c {
+    text-align: center;
+    margin-left: 5%;
+}
+
+.sdn {
+    float: left; 
+    width: 190px;
+    height : 190px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.smkn {
+    float: right;
+    width: 190px;
+    height : 190px;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+.smpn {
+    margin-top: 5%;
+    width: 190px;
+    height : 190px;
+    justify-content: center;
+}
+
+.sidebar {
+    position: middle;
+    height: 100vh;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.widget {
+    color: white;
+    text-align: center;
+    float: left;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.sidebar img {
+    justify-content: center;
+    border-radius: 50%;
+    border: 10px solid white;
+    align-items: center;
+    margin-right: 3%;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
